@@ -1,17 +1,16 @@
 {
-  "name": "hw-solution",
+  "name": "bamazon-customer",
   "version": "1.0.0",
   "description": "",
-  "main": "keys.js",
+  "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
-    "dotenv": "^6.0.0",
-    "moment": "^2.22.2",
-    "node-spotify-api": "^1.0.7"
+    "console.table": "^0.10.0",
+    "inquirer": "^6.0.0",
+    "mysql": "^2.15.0"
   }
 }
